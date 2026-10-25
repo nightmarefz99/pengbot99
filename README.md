@@ -2,6 +2,18 @@
 
 A library and Discord bot for useful F-Zero 99 schedule info
 
+## Documentation
+
+This README covers setting up, configuring and running the bot. More is in
+[docs/](docs/index.md):
+
+| Page | What's in it |
+|---|---|
+| [docs/setup.md](docs/setup.md) | Required settings, the first run and `.msg_struct`, choosing a profile, tests |
+| [docs/structure.md](docs/structure.md) | What lives where, in the code and in `config/` |
+| [docs/internals.md](docs/internals.md) | How the schedule is computed, how profiles switch, what the bot posts |
+| [docs/commands.md](docs/commands.md) | Every slash command, its handler and arguments |
+
 ## Setup
 
 This project uses `uv` for dependency management.
